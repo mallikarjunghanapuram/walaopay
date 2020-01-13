@@ -1,0 +1,44 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>Redirecting,Wait...</title>
+</head>
+
+<body>
+	<form id="paymerosubmit" name="paymerosubmit" action="https://www.realfx188.com/deposit.php" method="POST">
+
+
+		<input type="hidden" name="service_version" value="1.0" />
+
+		<input type="hidden" name="partner_code" value="DEMO0007" />
+
+		<input type="hidden" name="partner_orderid" value="1356743545677222" />
+
+		<input type="hidden" name="member_id" value="Paymero" />
+
+		<input type="hidden" name="member_ip" value="127.0.0.1" />
+
+		<input type="hidden" name="currency" value="VND" />
+
+		<input type="hidden" name="amount" value="10000" />
+
+		<input type="hidden" name="backend_url" value="https://notifications-api.dev.paymero.io/transactions/333" />
+
+		<input type="hidden" name="redirect_url" value="https://notifications-api.dev.paymero.io/transactions/111" />
+
+		<input type="hidden" name="bank_code" value="TCB" />
+
+		<input type="hidden" name="sign" value="32FB02A93E072A60D63E16440CD49C7C8D633D17" />
+
+		<input type="hidden" name="remarks" value="abcd" />
+
+		<input type="submit" value="Submit" style="display:none;">
+</form>
+		<script>
+			document.forms['paymerosubmit'].submit();
+		</script>
+</body>
+
+</html>
